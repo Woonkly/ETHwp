@@ -57,7 +57,7 @@ contract ETHwp is Tokenlock {
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint public constant totalSupply = 1000000000e18; // 1 mil million WOOPs
+    uint public constant totalSupply = 1000000000e18; // 1 mil million ETHwp
 
     /// @notice Allowance amounts on behalf of others
     mapping (address => mapping (address => uint96)) internal allowances;
